@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "default": "lantec-aprendizaje-de-id-83b2e",
+    "LANTEC": "lantec-aprendizajedeidiomas",
+    "Lantec-aprendizaje de idiomas": "lantec-aprendizaje-de-id-4a394",
+    "firebase deploy --only hosting": "lantec-aprendizaje-de-id-83b2e",
+    "lantec-aprendizaje-de-id-83b2e": "lantec-aprendizaje-de-id-83b2e",
+    "lantec-aprendizaje-de-id-4a394": "lantec-aprendizaje-de-id-4a394",
+    " lantec-aprendizaje-de-id-3bc22": "lantec-aprendizaje-de-id-3bc22"
+  },
+  "targets": {},
+  "etags": {}
+}

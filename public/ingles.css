@@ -1,0 +1,184 @@
+
+.body{
+    font-family:'sans-serif';
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none ;
+    list-style:none ;
+}
+.curso-img{
+    height: 700px;
+    width: 1423px;
+    opacity: 0.5;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+.header{
+    background-color: #1d576b;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    position:absolute ;
+    top:0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: 800;
+}
+.menu .navar ul li a:hover{
+    font-size: 40px;
+    padding: 40px;
+    color: rgb(5, 5, 5);
+    display: block;
+    font-weight: 600;
+}
+#menu{
+    display:none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor:pointer;
+    display:none;
+}
+.header-content{
+    text-align: center;
+}
+.header-content h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 75px;
+    line-height: 80px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+
+}
+.header-content p {
+    font-size: 16px;
+    color:whitesmoke;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #90b6c3;  
+    color:whitesmoke;
+    text-transform: uppercase;
+}
+.btn-1:hover{
+    background-color: black;
+}
+.curso{
+    padding:100px 0;
+    background-color: white;
+    position: relative;
+    
+}
+.curso-content{
+    text-align: center;
+
+}
+.curso-content h2{
+    font-size:55px;
+    line-height: 70px;
+    color:white;
+    text-transform: uppercase;
+    padding: 0 150px;
+    margin-bottom: 15px;
+}
+.txt-p{
+    font-size:16px;
+    color:grey;
+    padding: 0 150px;
+    margin-bottom: 35px;
+}
+.curso-group{
+    display: flex;
+    align-items: center;
+}
+.curso-1 h3{
+    color: aliceblue;
+}
+.curso-1{
+    padding: 0 25px;
+}
+
+.curso-1 img{
+    height: 300px;
+    width: 400px;
+}
+
+.curso-1 h3{
+    color:black;
+    font-size: 0px;
+    margin-bottom: 15px;
+}
+
+.services{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:100px;
+}
+.service-content{
+    justify-content:center ;
+}
+.service-content h2{
+    font-size:55px;
+    line-height: 70px;
+    color:black;
+    text-transform: uppercase;
+    margin-bottom:50px ;
+    justify-content: center;
+    display: flex;
+}
+.service-content p{
+    font-size: 26px;
+    color:black;
+    margin-bottom: 50px;
+    padding:  0 100px;
+}
+.service-group{
+    background-color: #1d576b;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: space-around;
+}
+
+.btn-2{
+    display: flex;
+    padding: 11px 35px;
+    background-color: #1d576b;
+    color:whitesmoke;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
